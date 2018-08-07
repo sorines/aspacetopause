@@ -3,10 +3,10 @@ import Header from "../Header/Header";
 import BlogContainer from "../BlogContainer/BlogContainer";
 
 const Home = () => (
-    <div>
+    <main>
         <Header />
         <BlogContainer />
-    </div>
+    </main>
 );
 
 export default Home;

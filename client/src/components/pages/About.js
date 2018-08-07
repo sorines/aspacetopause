@@ -2,9 +2,9 @@ import React from "react";
 import AboutContainer from "../AboutContainer/AboutContainer";
 
 const About = () => (
-    <div>
+    <main>
         <AboutContainer />
-    </div>
+    </main>
 );
 
 export default About;

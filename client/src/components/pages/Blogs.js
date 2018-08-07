@@ -1,10 +1,11 @@
 import React from "react";
+import NavBar from "../NavBar/NavBar";
 import BlogContainer from "../BlogContainer/BlogContainer";
 
 const Blogs = () => (
-    <div>
+    <main>
         <BlogContainer />
-    </div>
+    </main>
 );
 
 export default Blogs;

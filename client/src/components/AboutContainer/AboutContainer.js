@@ -6,13 +6,7 @@ class AboutContainer extends Component {
 
     render() {
         return (
-            <Container>
-                <Row>
-                    <Col>
-                        <Contact />
-                    </Col>
-                </Row>
-            </Container>
+            <Contact />
         );
     }
 }

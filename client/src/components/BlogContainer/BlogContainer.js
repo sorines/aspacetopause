@@ -6,14 +6,14 @@ class Blog extends Component {
 
     render() {
         return (
-            <Container>
+            <Container className="blog-container">
                 <Row>
-                    <Col>
+                    <Col md="9" className="float-center">
                         <Post />
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col md="9" className="float-center">
                         <Post />
                     </Col>
                 </Row>

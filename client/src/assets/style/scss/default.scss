@@ -1,0 +1,89 @@
+$gray: #6F6F6F;
+$white: #FFFFFF !important;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: $gray;
+}
+
+main {
+    padding-top: 50px;
+}
+
+.float-center {
+    margin: 0 auto;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: $white;
+    z-index: 2;
+
+    &-brand {
+        position: fixed;
+        width: 250px;
+        left: 0;
+        right: 0;
+        top: 0.5rem;
+        text-align: center;
+        margin:0 auto;
+    }
+}
+
+.nav-link {
+    padding-right: 1.5rem !important;
+}
+
+.header {
+    background-image: url('../../img/banner.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    resize: both;
+    height: 600px;
+    color: $white;
+    text-align: center;
+
+    &-intro {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 35%;
+
+        h1 {
+            font-size: 3.2em;
+        }
+        h5 {
+            font-size: 1.5em;
+        }
+    }
+}
+
+.container {
+    padding: 2.6em;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+// .card-text {
+//     height: 60px;
+//     white-space: nowrap;
+//     overflow: hidden;
+//     text-overflow: ellipsis; 
+// }
+
+.blog-container {
+    padding-top: 50px;
+}

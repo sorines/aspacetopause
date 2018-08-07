@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./components/pages/Home";
@@ -9,13 +9,13 @@ import About from "./components/pages/About";
 const App = () => {
   return (
     <Router>
-        <div>
+      <React.Fragment>
         <NavBar />
         <Route exact path="/" component={Home} />
         <Route exact path="/blog" component={Blogs} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/about" component={About} />
-      </div>
+      </React.Fragment>
     </Router>
   );
 }
