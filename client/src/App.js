@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import Blogs from "./components/pages/Blogs";
 import Login from "./components/pages/Login";
 import About from "./components/pages/About";
+import withAuthentication from './withAuthentication';
 
 const App = () => {
   return (
