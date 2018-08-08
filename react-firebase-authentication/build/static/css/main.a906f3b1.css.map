@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,cACI,kBAAqB,CAEzB,UACI,UAAY","file":"static/css/main.a906f3b1.css","sourcesContent":[".form-control {\n    margin-bottom: 0.5em;\n}\n.userName {\n    color:white;\n} \n\n\n// WEBPACK FOOTER //\n// ./src/index.css"],"sourceRoot":""}
