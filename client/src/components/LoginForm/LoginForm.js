@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 import { Container, Row, Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import { auth } from '../../firebase';
 
 const SignInPage = ({ history }) =>
-    <div>
-        <h1>SignIn</h1>
-        <LoginForm history={history} />
-        </div>
+    <LoginForm history={history} />
 
 const byPropKey = (propertyName, value) => () => ({
     [propertyName]: value,
@@ -95,4 +93,8 @@ render() {
     }
 }
 
-export default LoginForm;
+export default withRouter(SignInPage);
+
+export {
+    LoginForm,
+}
