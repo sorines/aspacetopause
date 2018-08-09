@@ -4,6 +4,7 @@ import BlogContainer from "../BlogContainer/BlogContainer";
 
 const Blogs = () => (
     <main>
+        <NavBar />
         <BlogContainer />
     </main>
 );

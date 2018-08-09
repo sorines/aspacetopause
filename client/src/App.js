@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import Blogs from "./components/pages/Blogs";
 import Login from "./components/pages/Login";
 import About from "./components/pages/About";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route exact path="/blog" component={Blogs} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/about" component={About} />
+        <Footer />
       </React.Fragment>
     </Router>
   );

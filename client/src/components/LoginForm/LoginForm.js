@@ -7,7 +7,7 @@ class LoginForm extends Component {
         return (
             <Container>
                 <Row>
-                    <Col md="6" className="float-center">
+                    <Col md="6" className="float">
                         <Form>
                             <FormGroup>
                                 <Label for="exampleEmail">Email</Label>

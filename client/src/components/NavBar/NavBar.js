@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavLink, NavItem, InputGroupAddon, InputGroup, Button} from 'reactstrap';
 
 class NavBar extends React.Component {
 
@@ -22,7 +22,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <nav>
-        <Navbar className="shadow-sm" light expand="md">
+        <Navbar color="light" light expand="md">
           <NavbarBrand href="/">A SPACE TO PAUSE</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -38,11 +38,13 @@ class NavBar extends React.Component {
               </NavItem>
             </Nav>
           </Collapse>
+          <InputGroupAddon addonType="append">
+          <Button href="/Login">Admin Login</Button>
+        </InputGroupAddon>
         </Navbar>
       </nav>
     );
   }
-  
 }
 
 export default NavBar;
