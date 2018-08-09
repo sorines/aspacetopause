@@ -9,7 +9,7 @@ const mongoose = require("mongoose");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// const apiRoutes = require("./routes/apiRoutes");
+const routes = require("./routes");
 
 // Middleware to handle data parsing
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -21,7 +21,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Add routes
-// app.use("/api", apiRoutes);
+app.use(routes);
 
 // Connect to Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/blogposts");

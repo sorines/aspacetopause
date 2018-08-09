@@ -12,11 +12,6 @@ class Blog extends Component {
                         <Post />
                     </Col>
                 </Row>
-                <Row>
-                    <Col md="9" className="float-center">
-                        <Post />
-                    </Col>
-                </Row>
             </Container>
         );
     }
