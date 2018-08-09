@@ -4,7 +4,7 @@ import { Card, CardFooter, } from 'reactstrap';
 const Footer = () => {
   return (
     <div>
-        <CardFooter>Footer</CardFooter>
+        <CardFooter>A Space To Pause</CardFooter>
     </div>
   );
 };
